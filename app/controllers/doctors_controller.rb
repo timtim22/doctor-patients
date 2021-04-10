@@ -35,7 +35,7 @@ class DoctorsController < ApplicationController
   	end
   end
 
-  #daily available time i.e. 9AM to 5PM. Can only add daily available timing
+  #daily available time 9AM to 5PM. Can only add daily available timing
   # def available_time
   # 	if !params[:doctor_id].blank?
   # 		if Doctor.where(id: params[:doctor_id]).exists?
